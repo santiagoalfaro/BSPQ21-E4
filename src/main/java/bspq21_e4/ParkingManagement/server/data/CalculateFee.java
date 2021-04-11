@@ -35,6 +35,7 @@ public static void main(String[] args) throws ParseException {
     int differenceMin = getDifferenceBetwenDates(sdfResult.parse("09:00"), sdfResult.parse("16:00"));
     double amount = calculateFee(differenceMin);
     System.out.println(amount);
+    System.out.println(amount);
 
 
 }
